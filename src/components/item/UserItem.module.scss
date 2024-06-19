@@ -1,0 +1,29 @@
+.item {
+  display: flex;
+  overflow-wrap: anywhere;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  border: 1px solid var(--content-color);
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  &:hover {
+    background: #333;
+    color: aliceblue;
+  }
+}
+
+.userInfoBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.unread {
+  align-self: center;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,27 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.logoutButton {
+  padding: 8px 10px;
+  border-radius: 20px;
+  border: none;
+  background: cadetblue;
+  cursor: pointer;
+}
+
+.username {
+  font-size: 21px;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+
+.appname {
+  font-size: 25px;
+  text-transform: uppercase;
+}

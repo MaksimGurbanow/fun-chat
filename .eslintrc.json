@@ -1,0 +1,45 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "tsconfigRootDir": "./fun-chat/",
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "settings": {
+    "import/extensions": [".js", ".ts"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"]
+      }
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "eslint-config-airbnb/base"
+    ],
+    "plugins": [
+      "@typescript-eslint",
+      "import"
+    ],
+    "ignorePatterns": [
+      "/webpack",
+      "/build",
+      "/config",
+      "webpack.config.ts",
+      "node_modules"
+    ],
+    "rules": {
+      "eslint-plugin-import/no-unresolved": ["error", "never"],
+      "import/extensions": ["error", "never"],
+      "linebreak-style": ["error", "windows"]
+    }
+  }
+}

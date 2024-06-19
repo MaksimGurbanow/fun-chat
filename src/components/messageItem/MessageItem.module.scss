@@ -1,0 +1,29 @@
+.message {
+  display: flex;
+  padding: 2px 5px;
+  margin: 2px;
+  flex-direction: column;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  width: 50%;
+  position: relative;
+  align-items: flex-start;
+  background: #959595;
+  color: white;
+}
+
+.left {
+  align-self: flex-start;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.text {
+  background: white;
+  color: black;
+  padding: 5px;
+  width: 100%;
+  justify-content: start;
+}

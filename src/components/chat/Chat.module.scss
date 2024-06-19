@@ -1,0 +1,31 @@
+.chat {
+  display: flex;
+  flex: 0.7;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+.chatInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.closeButton {
+  cursor: pointer;
+}
+
+.recepient {
+  font-size: 20px;
+}
+
+.sendBlock {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

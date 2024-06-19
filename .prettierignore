@@ -1,0 +1,7 @@
+build
+config
+**/*.html
+**/*.config.ts
+**/*.json
+node_modules
+.github

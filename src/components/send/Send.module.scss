@@ -1,0 +1,15 @@
+.send {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.icon {
+  width: 30px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.active {
+  opacity: 1;
+}

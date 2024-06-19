@@ -1,0 +1,27 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.submitButton {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.active {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}

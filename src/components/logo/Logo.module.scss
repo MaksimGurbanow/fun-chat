@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.description {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.active {
+  cursor: pointer;
+}
